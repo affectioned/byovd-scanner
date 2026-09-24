@@ -1,0 +1,679 @@
+{
+  "phys_rw": [
+    {
+      "name": "evga_kernel_driver-x64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "evga_kernel_driver-x64.sys"
+      ],
+      "sha256": [
+        "33da2ce240b4559c..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/325",
+        "https://github.com/KeServiceDescriptorTable/vulnerable-drivers"
+      ],
+      "verified": true,
+      "id": "02bbc006-a4a4-438f-9b6c-4382303f6b45"
+    },
+    {
+      "name": "cpuz.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "cpuz.sys",
+        "cpuz.sys",
+        "cpuz.sys"
+      ],
+      "sha256": [
+        "58cb5439e34be4ed...",
+        "eaa5dae373553024..."
+      ],
+      "sources": [
+        "https://github.com/elastic/protections-artifacts/search?q=VulnDriver"
+      ],
+      "verified": true,
+      "id": "0f59ce3b-20ac-41ba-8010-2abc74827eb8"
+    },
+    {
+      "name": "AMDRyzenMasterDriver.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "AMDRyzenMasterDriver.sys",
+        "AMDRyzenMasterDriver.sys",
+        "AMDRyzenMasterDriver.sys"
+      ],
+      "sha256": [
+        "7e81beae78e1ddbf...",
+        "909de5f21837ea2b..."
+      ],
+      "sources": [
+        "https://github.com/elastic/protections-artifacts/search?q=AMDRyzenMasterDriver",
+        "https://github.com/NtGabrielGomes/CVE-2023-20564"
+      ],
+      "verified": true,
+      "id": "13973a71-412f-4a18-a2a6-476d3853f8de"
+    },
+    {
+      "name": "cpuz.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "cpuz.sys",
+        "cpuz.sys",
+        "cpuz.sys"
+      ],
+      "sha256": [
+        "0d3790af5f8e5c94...",
+        "11d258e05b850dcc..."
+      ],
+      "sources": [],
+      "verified": true,
+      "id": "16d8962b-cf96-432f-8a43-d41f06828f56"
+    },
+    {
+      "name": "AmdTools64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "AmdTools64.sys"
+      ],
+      "sha256": [
+        "891007bc9f3b55ae..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/430",
+        "https://github.com/methmind/amdtools64"
+      ],
+      "verified": true,
+      "id": "1bab0fae-7908-4fae-9db7-73562c7d92cd"
+    },
+    {
+      "name": "AsusSAIO.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "AsusSAIO.sys",
+        "AsusSAIO.sys",
+        "AsusSAIO.sys"
+      ],
+      "sha256": [
+        "2d1c04a9ee1664c2...",
+        "0288a3e8ba6ad007..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/409",
+        "https://github.com/fluffycats31/vulnerable-drivers"
+      ],
+      "verified": true,
+      "id": "207b30f5-e3da-4eb2-829f-54b946eb526a"
+    },
+    {
+      "name": "MsIo64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "MsIo64.sys",
+        "MsIo32.sys",
+        "MsIo64.sys"
+      ],
+      "sha256": [
+        "0f035948848432bc...",
+        "2270a8144dabaf15..."
+      ],
+      "sources": [],
+      "verified": true,
+      "id": "214654eb-90c4-48c8-a183-0157e50bf07f"
+    },
+    {
+      "name": "RTCore64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "RTCore64.sys",
+        "RTCore64.sys",
+        "rtcore64.sys"
+      ],
+      "sha256": [
+        "03e0581432f5c8cc...",
+        "0466dac557ee1615..."
+      ],
+      "sources": [],
+      "verified": true,
+      "id": "275c80c5-a67c-4536-b29e-4e481242cb01"
+    },
+    {
+      "name": "snxpsamd.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "snxpsamd.sys"
+      ],
+      "sha256": [
+        "1eaaa7dd2f187a5f..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/409",
+        "https://github.com/fluffycats31/vulnerable-drivers"
+      ],
+      "verified": true,
+      "id": "300cdb55-6e01-4365-83e5-5783be2f9262"
+    },
+    {
+      "name": "kerneld.amd64",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [],
+      "sha256": [
+        "065a34b786b0ccf6...",
+        "0c018eaa293c03fe..."
+      ],
+      "sources": [
+        "https://blogs.vmware.com/security/2023/10/hunting-vulnerable-kernel-drivers.html"
+      ],
+      "verified": true,
+      "id": "3aa6e630-59be-4a15-a30c-aaed4c1edaf0"
+    },
+    {
+      "name": "ene.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "ene.sys",
+        "ene.sys",
+        "ene.sys"
+      ],
+      "sha256": [
+        "16768203a471a19e...",
+        "175eed7a4c6de9c3..."
+      ],
+      "sources": [],
+      "verified": true,
+      "id": "3bec7340-bd8b-43ae-8569-d81a66f01dda"
+    },
+    {
+      "name": "energydriver.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "energydriver.sys",
+        "EnergyDriver.sys"
+      ],
+      "sha256": [
+        "6665b05e6fd430b7...",
+        "382cb4c37fdcb2e2..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/325",
+        "https://github.com/magicsword-io/LOLDrivers/issues/329"
+      ],
+      "verified": true,
+      "id": "3dc0b91e-6afe-4938-ad9a-2cdf10c2c1e6"
+    },
+    {
+      "name": "MsIo32.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "MsIo32.sys"
+      ],
+      "sha256": [
+        "525d9b51a80ca0cd..."
+      ],
+      "sources": [
+        "https://www.activecyber.us/activelabs/viper-rgb-driver-local-privilege-escalation-cve-2019-18845",
+        "http://blog.rewolf.pl/blog/?p=1630"
+      ],
+      "verified": true,
+      "id": "4e5064b4-48d3-418c-a7a8-f0dc7ac0a176"
+    },
+    {
+      "name": "msio32.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [],
+      "sha256": [
+        "c7d4943ddac34e1a..."
+      ],
+      "sources": [
+        "https://gist.github.com/mgraeber-rc/1bde6a2a83237f17b463d051d32e802c"
+      ],
+      "verified": true,
+      "id": "58509acb-50b4-41a0-9de3-76c571a459e3"
+    },
+    {
+      "name": "MsIo64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "MsIo64.sys"
+      ],
+      "sha256": [
+        "43ba8d96d5e8e54c..."
+      ],
+      "sources": [
+        "https://www.matteomalvica.com/blog/2020/09/24/weaponizing-cve-2020-17382/",
+        "https://packetstormsecurity.com/files/159315/MSI-Ambient-Link-Driver-1.0.0.8-Privilege-Escalation.html"
+      ],
+      "verified": true,
+      "id": "6d21df78-d718-44df-b722-99eec654f5b2"
+    },
+    {
+      "name": "WinRing0.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "WinRing0.sys",
+        "WinRing0.sys",
+        "WinRing0.sys"
+      ],
+      "sha256": [
+        "3ec5ad51e6879464...",
+        "47eaebc920ccf99e..."
+      ],
+      "sources": [
+        "https://github.com/namazso/physmem_drivers",
+        "https://github.com/eclypsium/Screwed-Drivers/blob/master/DRIVERS.md"
+      ],
+      "verified": true,
+      "id": "7bb5ff05-25f8-410d-ae99-c8e8f082d24f"
+    },
+    {
+      "name": "dbutil.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "dbutil.sys",
+        "dbutil.sys",
+        "dbutil.sys"
+      ],
+      "sha256": [
+        "...",
+        "..."
+      ],
+      "sources": [
+        "https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules"
+      ],
+      "verified": false,
+      "id": "8d14d798-338f-471e-bacb-6d9371c0f529"
+    },
+    {
+      "name": "Amd_RPMC_BiosToolCommonDriver.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "Amd_RPMC_BiosToolCommonDriver.sys"
+      ],
+      "sha256": [
+        "4e913a99b38abea0..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/325",
+        "https://github.com/KeServiceDescriptorTable/vulnerable-drivers"
+      ],
+      "verified": true,
+      "id": "8dbd8d1c-aa4a-418c-9bbe-0730d37d9bb5"
+    },
+    {
+      "name": "eneio64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "eneio64.sys",
+        "EneIo64.sys"
+      ],
+      "sha256": [
+        "38c18db050b0b2b0...",
+        "9ee33ffd80611a13..."
+      ],
+      "sources": [],
+      "verified": true,
+      "id": "90ecbbf7-b02f-424d-8b7d-56cc9e3b5873"
+    },
+    {
+      "name": "AMDPowerProfiler.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "AMDPowerProfiler.sys",
+        "AMDPowerProfiler.sys",
+        "AMDPowerProfiler.sys"
+      ],
+      "sha256": [
+        "5f7bf4e385cd4401...",
+        "0af5ccb3d33a9ba9..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/409",
+        "https://github.com/elastic/protections-artifacts/search?q=VulnDriver"
+      ],
+      "verified": true,
+      "id": "9a4fb66e-9084-4b21-9d76-a7afbe330606"
+    },
+    {
+      "name": "EneIo64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "EneIo64.sys"
+      ],
+      "sha256": [
+        "9fc29480407e5179..."
+      ],
+      "sources": [
+        "https://gist.github.com/k4nfr3/af970e7facb09195e56f2112e1c9549c"
+      ],
+      "verified": true,
+      "id": "9b65dba4-81a0-48cc-8ff0-a4f353881062"
+    },
+    {
+      "name": "CorsairLLAccess64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "CorsairLLAccess64.sys",
+        "CorsairLLAccess64.sys",
+        "CorsairLLAccess64.sys"
+      ],
+      "sha256": [
+        "29a90ae1dcee6633...",
+        "5fad3775feb8b6f6..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/302",
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-8808"
+      ],
+      "verified": true,
+      "id": "a9d9cbb7-b5f6-4e74-97a5-29993263280e"
+    },
+    {
+      "name": "DriversCloud_amd64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "DriversCloud_amd64.sys"
+      ],
+      "sha256": [
+        "2bc72d11fa0beda2..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/284",
+        "https://www.virustotal.com/gui/file/2bc72d11fa0beda25dc1dbc372967db49bd3c3a3903913f0877bff6792724dfe"
+      ],
+      "verified": true,
+      "id": "b3f7c8d2-4a19-4e5b-9d6c-2f8e1a3b7c04"
+    },
+    {
+      "name": "rtcoremini64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [],
+      "sha256": [
+        "bea8c6728d57d4b0..."
+      ],
+      "sources": [
+        "https://gist.github.com/mgraeber-rc/1bde6a2a83237f17b463d051d32e802c"
+      ],
+      "verified": true,
+      "id": "b9e01a11-6395-4837-a202-0c777d717a43"
+    },
+    {
+      "name": "DBUtilDrv2.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "DBUtilDrv2.sys",
+        "DBUtilDrv2.sys"
+      ],
+      "sha256": [
+        "2e6b339597a89e87...",
+        "71fe5af0f1564dc1..."
+      ],
+      "sources": [
+        "https://github.com/jbaines-r7/dellicious",
+        "https://www.rapid7.com/blog/post/2021/12/13/driver-based-attacks-past-and-present/"
+      ],
+      "verified": true,
+      "id": "bb808089-5857-4df2-8998-753a7106cb44"
+    },
+    {
+      "name": "magdrvamd64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "magdrvamd64.sys"
+      ],
+      "sha256": [
+        "be54f7279e69fb76..."
+      ],
+      "sources": [
+        "https://www.unknowncheats.me/forum/anti-cheat-bypass/334557-vulnerable-driver-megathread.html"
+      ],
+      "verified": true,
+      "id": "cfd36b2e-cf96-498e-aeb6-ee20e7b33bbb"
+    },
+    {
+      "name": "EneTechIo64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "EneTechIo64.sys"
+      ],
+      "sha256": [
+        "06bda5a1594f7121..."
+      ],
+      "sources": [
+        "https://github.com/hfiref0x/KDU/releases/tag/v1.2.0",
+        "https://gist.github.com/k4nfr3/af970e7facb09195e56f2112e1c9549c"
+      ],
+      "verified": true,
+      "id": "d64167b6-f281-41d8-9535-6cb925e77aec"
+    },
+    {
+      "name": "cpuz_x64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "cpuz_x64.sys"
+      ],
+      "sha256": [
+        "3871e16758a17789..."
+      ],
+      "sources": [
+        "https://github.com/namazso/physmem_drivers"
+      ],
+      "verified": true,
+      "id": "de003542-80e1-4aa0-9b99-ed8647a93a6e"
+    },
+    {
+      "name": "RTCore64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "RTCore64.sys",
+        "RTCore64.sys",
+        "RTCore64.sys"
+      ],
+      "sha256": [
+        "01aa278b07b58dc4...",
+        "cdd2a4575a46bada..."
+      ],
+      "sources": [
+        "https://github.com/elastic/protections-artifacts/search?q=VulnDriver",
+        "https://news.sophos.com/en-us/2022/10/04/blackbyte-ransomware-returns/"
+      ],
+      "verified": true,
+      "id": "e32bc3da-4db1-4858-a62c-6fbe4db6afbd"
+    },
+    {
+      "name": "CITMDRV_AMD64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "CITMDRV_AMD64.sys",
+        "CITMDRV_AMD64.sys",
+        "CITMDRV_AMD64.sys"
+      ],
+      "sha256": [
+        "29e0062a017a93b2...",
+        "45abdbcd4c0916b7..."
+      ],
+      "sources": [
+        "https://github.com/namazso/physmem_drivers",
+        "https://github.com/Haider303/trinity-lpe"
+      ],
+      "verified": true,
+      "id": "f3215c19-8053-458c-81a5-90a74c5d2e6d"
+    },
+    {
+      "name": "cpuz141.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "cpuz141.sys"
+      ],
+      "sha256": [
+        "ded2927f9a4e64ee..."
+      ],
+      "sources": [
+        "https://github.com/namazso/physmem_drivers"
+      ],
+      "verified": true,
+      "id": "fab98aaa-e4e7-4c4a-af65-c00d35cf66e9"
+    },
+    {
+      "name": "CorsairLLAccess64.sys",
+      "caps": [
+        "LIKELY_PHYS_RW"
+      ],
+      "samples": [
+        "CorsairLLAccess64.sys",
+        "CorsairLLAccess64.sys"
+      ],
+      "sha256": [
+        "000547560fea0dd4...",
+        "01e024d3c76fb1b7..."
+      ],
+      "sources": [
+        "https://github.com/elastic/protections-artifacts/search?q=VulnDriver",
+        "https://github.com/magicsword-io/LOLDrivers/issues/302"
+      ],
+      "verified": true,
+      "id": "ff74f03e-e4ce-4242-bfe3-60601056bb34"
+    }
+  ],
+  "msr": [
+    {
+      "name": "semav6msr.sys",
+      "caps": [
+        "MSR"
+      ],
+      "samples": [
+        "semav6msr.sys",
+        "semav6msr64.sys"
+      ],
+      "sha256": [
+        "9f1229cd8dd9092c...",
+        "9f1229cd8dd9092c..."
+      ],
+      "sources": [
+        "https://github.com/eclypsium/Screwed-Drivers/blob/master/DRIVERS.md",
+        "https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules"
+      ],
+      "verified": true,
+      "id": "142453a2-a24d-4b35-8922-6d5939f1c0fc"
+    },
+    {
+      "name": "msrhook.sys",
+      "caps": [
+        "MSR"
+      ],
+      "samples": [
+        "msrhook.sys"
+      ],
+      "sha256": [
+        "6de84caa2ca18673..."
+      ],
+      "sources": [
+        "https://github.com/namazso/physmem_drivers"
+      ],
+      "verified": true,
+      "id": "1a1cf88a-96d0-46cd-a24d-1535e4a5f6e3"
+    },
+    {
+      "name": "LnvMSRIO.sys",
+      "caps": [
+        "MSR"
+      ],
+      "samples": [
+        "LnvMSRIO.sys",
+        "LnvMSRIO.sys",
+        "LnvMSRIO.sys"
+      ],
+      "sha256": [
+        "977d3b78bdf57234...",
+        "7023f08c9f99076a..."
+      ],
+      "sources": [
+        "https://github.com/magicsword-io/LOLDrivers/issues/409",
+        "https://github.com/fluffycats31/vulnerable-drivers"
+      ],
+      "verified": true,
+      "id": "87680018-393b-47b6-8130-6b41bed2bc7c"
+    },
+    {
+      "name": "msr.sys",
+      "caps": [
+        "MSR"
+      ],
+      "samples": [
+        "msr.sys",
+        "msr.sys"
+      ],
+      "sha256": [
+        "ede9a3858a12d5dd...",
+        "6c6a4d07e95ab421..."
+      ],
+      "sources": [
+        "https://twitter.com/wdormann/status/1699878227261411699",
+        "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/design/microsoft-recommended-driver-block-rules"
+      ],
+      "verified": true,
+      "id": "ee6fa2de-d388-416c-862d-24385c152fad"
+    }
+  ],
+  "port_pci": []
+}

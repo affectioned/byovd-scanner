@@ -15,16 +15,16 @@ from rich.text import Text
 from .scanner import DriverInfo, DriverScanner
 
 
-console = Console()
+console = Console(force_terminal=True, legacy_windows=False)
 
 
 def print_banner():
     """Print the tool banner."""
     banner = """
-╔══════════════════════════════════════════════════════════╗
-║           BYOVD Scanner - Vulnerable Driver Discovery    ║
-║                  Physical R/W IOCTL Finder               ║
-╚══════════════════════════════════════════════════════════╝
+============================================================
+           BYOVD Scanner - Vulnerable Driver Discovery
+                  Physical R/W IOCTL Finder
+============================================================
 """
     console.print(banner, style="bold cyan")
 
